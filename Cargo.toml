@@ -1,0 +1,7 @@
+[package]
+name = "image_contrast"
+version = "0.1.0"
+authors = ["Jia Ye <planet0104@gmail.com>"]
+
+[dependencies]
+lodepng = "*"

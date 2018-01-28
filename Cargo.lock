@@ -1,0 +1,30 @@
+[[package]]
+name = "image_contrast"
+version = "0.1.0"
+dependencies = [
+ "lodepng 2.1.2 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "libc"
+version = "0.2.36"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[[package]]
+name = "lodepng"
+version = "2.1.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "libc 0.2.36 (registry+https://github.com/rust-lang/crates.io-index)",
+ "rgb 0.8.7 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "rgb"
+version = "0.8.7"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+
+[metadata]
+"checksum libc 0.2.36 (registry+https://github.com/rust-lang/crates.io-index)" = "1e5d97d6708edaa407429faa671b942dc0f2727222fb6b6539bf1db936e4b121"
+"checksum lodepng 2.1.2 (registry+https://github.com/rust-lang/crates.io-index)" = "e23bb21f018611cb9406eab31a8c357f4b16a8ecddafc8cdf147a47eb8cfb685"
+"checksum rgb 0.8.7 (registry+https://github.com/rust-lang/crates.io-index)" = "6a2709858644231956f913ee2951111c9aef89e016ed0c2bf16d58c1328d68fe"
