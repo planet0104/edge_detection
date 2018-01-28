@@ -31,7 +31,7 @@ fn edge_detection(buffer:&Vec<RGB<u8>>, width:usize, height:usize)->Vec<RGB<u8>>
                         + calc_pixel(buffer.get(i+2), col_binary, &buffer[i])
                         + calc_pixel(buffer.get(i+width), !col_binary, &buffer[i])
                         + calc_pixel(buffer.get(i+width+width), col_binary, &buffer[i])
-                        )/4.0) as i32{ //(Some(..pixel..)/255*4)*255 = Some(..pixel..)/4
+                        )/4.0) as i32{ //(Sum(..pixel..)/255*4)*255 = Sum(..pixel..)/4
                 0 => out_buffer.push(RGB::new(0, 0, 0)),
                 _ => out_buffer.push(RGB::new(255, 255, 255)),
             }
