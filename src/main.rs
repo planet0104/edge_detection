@@ -22,7 +22,6 @@ fn edge_detection(buffer:&Vec<RGB<u8>>, width:usize, height:usize, threshold:f32
     let mut i = 0;
 
     for _row in 0..height{
-        //第一列是否是双极细胞
         for _col in 0..width{
             //4个像素
             //双极细胞 给光ON，撤光OFF => 超过阈值:255
